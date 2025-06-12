@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posts</title>
+    <title>Show Post</title>
 </head>
 <body>
-
-<h1>{{ $post->title }}</h1>
-<p>{{ $post->content }}</p>
-<a href="{{ route('posts.index') }}">Back to Posts</a>
-
-
+    <h1>{{ $post->title }}</h1>
+    <p>{{ $post->content }}</p>
+    <a href="{{ route('posts.index') }}">Back to Posts</a>
 </body>
 </html>
